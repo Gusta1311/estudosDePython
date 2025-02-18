@@ -2,7 +2,7 @@
 from random import choice
 n1 = input('Digite um nome para ser Sorteado: ')
 n2 = input('Digite o segundo nome a ser sorteado: ')
-n3 =input ('Digite o terceiro nome a ser sorteado: ')
+n3 = input ('Digite o terceiro nome a ser sorteado: ')
 n4 = input('Digte o quarto nome a ser sorteado: ')
 
 alunos = [n1,n2,n3,n4]
