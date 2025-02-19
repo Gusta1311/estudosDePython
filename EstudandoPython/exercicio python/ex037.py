@@ -10,6 +10,6 @@ salario = salario * 0.3
 print(f"A prestacao da casa foi de {prestacao:.2f} vezes no cartão.")
 
 if prestacao > salario:
-    print("Emprestimo nao foi Aprovado 💸")
+    print("❌ Emprestimo não foi Aprovado.😔 ")
 else:
-    print("Emprestimo aprovado 💸")
+    print("✅ Emprestimo Aprovado. 💸")
