@@ -5,9 +5,10 @@ valor_casa = int(input("Qual o valor da sua casa?:"))
 salario = int(input("Valor do salario: "))
 anos = int(input("Quantas vezes: "))
 #Calcular prestação e 30% do salario
+meses = anos * 12
 prestacao = valor_casa/ (anos * 12)
 salario = salario * 0.3
-print(f"A prestacao da casa foi de {prestacao:.2f} vezes no cartão.")
+print(f"A prestacao da casa foi de {prestacao:.2f} Reais, em {meses} vezes no cartão.")
 
 if prestacao > salario:
     print("Emprestimo nao foi Aprovado 💸")
