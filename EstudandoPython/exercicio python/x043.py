@@ -10,7 +10,7 @@ if(triangulo1 != triangulo2 and triangulo1 != triangulo3 and triangulo2 != trian
     resultado = "Escaleno"
 elif(triangulo1 == triangulo2 and triangulo1 == triangulo3 and triangulo2 == triangulo3):
     resultado = "Equiátero"
-elif(triangulo1 == triangulo2 or triangulo1 == triangulo3 or triangulo2 == triangulo3):
+elif(triangulo1 == triangulo2 or triangulo1 == triangulo3 or triangulo2 == triangulo3) and (triangulo1 != triangulo2 or triangulo1 != triangulo3 or triangulo2 != triangulo3):
     resultado = "Isóceles"
 else:
     print('Você é burro!')
