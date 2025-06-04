@@ -3,10 +3,10 @@
 #Da biblioteca random eu importei o modulo randint que rnadomiza numeros inteiros
 from random import randint
 from time import sleep
-#sendo assim eu coloquei que a variavel do numero escolhido pelo computador, iria ser random entre 0 e 20
+#sendo assim eu coloquei que a variavel do numero escolhido pelo computador, iria ser random entre 0 e 100
 numero_computador = randint(0,100)
 print('*'*100)
-print('Bem vindo ao jogo da Adivinhação. tenet acertar o número...')
+print('Bem vindo ao jogo da Adivinhação. tente acertar o número...')
 print('*'*100)
 #aqui eu peço para o usuario escolher um numero para tentar acertar e salvo na variavel do usuario
 numero_usuario = int(input("Escolha um numero entre 0 e 100: "))
